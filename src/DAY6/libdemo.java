@@ -9,8 +9,7 @@ public class libdemo {
         if(absent) throw new GC("penalty for absence");
         else{
             System.out.println("good students");
-        }=
-
+        }
     }
     public static void main(String[] args) {
         try{
