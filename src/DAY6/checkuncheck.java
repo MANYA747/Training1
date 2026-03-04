@@ -1,7 +1,8 @@
 package DAY6;
 
 public class checkuncheck {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         System.out.println("checked/compile time exception");
 
         System.out.println("FileNotFoundException");
@@ -13,6 +14,7 @@ public class checkuncheck {
         System.out.println("NoSuchMethodException");
         System.out.println("NoSuchFiledException");
         System.out.println("ParseException"); //when using buffer to take input
+
 
         System.out.println("unchecked /run time exception");
         System.out.println("ArithmeticException");

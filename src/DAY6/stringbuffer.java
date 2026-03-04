@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class stringbuffer {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println(sc);
         String str = sc.nextLine();
         StringBuffer sb = new StringBuffer(str);
         //1.append->adds at the last
