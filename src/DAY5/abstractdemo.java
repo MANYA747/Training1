@@ -5,7 +5,8 @@ package DAY5;
         System.out.println("Area of a shape");
     }
 }
-class circle extends shape{ //derived class to intialise the abstract method
+class circle extends shape
+{ //derived class to intialise the abstract method
      @Override//abstract method is overridden;
      void draw(){//non abstarct method;
          System.out.println("drawing a shape");
